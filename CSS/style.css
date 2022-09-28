@@ -20,6 +20,7 @@ body {
 }
 #body {
     width: 50%;
+    margin-left: 25%;
 }
 .heading {
     background-color: var(--Soft-red);
@@ -27,10 +28,10 @@ body {
     display: flex;
     padding: 5%;
     justify-content: space-between;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 #canvas {
-    background-color: white;
+    margin-top: 5%;
 }
 .heading h4 {
     margin-bottom: 5px;
@@ -53,11 +54,91 @@ body {
     justify-content: space-between;
 }
 hr {
+    margin-top: 5%;
     opacity: 40%;
 }
 .h4 {
     opacity: 40%;
+    margin-top: 5%;
 }
 .con h2 {
     color: var(--Dark-brown);
+    margin-top: 5%;
+}
+footer {
+    margin: 10% 20%;
+    color: var(--Soft-red);
+}
+footer a{
+    color: var(--Cyan);
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 15%;
+    }
+    #body {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 5%;
+    }
+    #body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5%;
+    }
+    #body {
+        width: 80%;
+        margin-left: 7%;
+    }
+    footer {
+        margin: 10% 15%;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    body {
+        padding-top: 15%;
+    }
+    #body {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer {
+        margin: 10% 0%;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    body {
+        padding-top: 10%;
+    }
+    #body {
+        width: 100%;
+        margin-left: 0%;
+    }
+    footer {
+        margin: 10% 0%;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    body {
+        padding: 10% 0% 0%;
+    }
+    #body {
+        width: 100%;
+        margin-left: 0%;
+    }
+    footer {
+        margin: 10% 0%;
+        font-size: 15px;
+    }
 }
