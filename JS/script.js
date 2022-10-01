@@ -22,7 +22,6 @@ const backgroundColor = []
     }
 }
   let massSpendChart = new Chart(myChart, {
-    // const spend = new Chart(ctx, {
     type: 'bar',
     data:{
         labels: ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun'],
